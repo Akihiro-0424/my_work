@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ color: #24292e;
+}
+
+img {
+ max-width: 100%;
+}
+
+li {
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
+ color: #24292e;
+}
+
+.wrapper {
+ max-width: 960px;
+ margin: 0 auto 130px auto;
+ padding: 0 4%;
+ font-size: 16px;
+}
+
+.section-title {
+ text-align: center;
+ margin-bottom: 65px;
+}
+
+/*------------------
+header
+------------------*/
+#header {
+ max-width: 960px;
+ height: 270px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 auto;
+ padding: 0 4%;
+}
+
+.header-logo img {
+ width: 180px;
+}
+
+.header-nav ul {
+ display: flex;
+ padding: 10px 0;
+}
+
+.header-nav li {
+ margin-left: 30px;
+ font-size: 14px;
+}
+
+.header-nav li:hover {
+ opacity: 0.7;
+}
+
+.header-nav img {
+ width: 20px;
+}
+
+
+/*------------------
+mainvisual
+------------------*/
+.mainvisual {
+ margin-bottom: 80px;
+}
+
+.mainvisual img {
+ width: 100%;
+ height: 420px;
+ object-fit: cover;
+}
+
+/*------------------
+about
+------------------*/
+#about ul {
+ margin-bottom: 30px;
+}
+
+#about li:first-child {
+ margin-bottom: 30px;
+}
+
+#about p {
+ text-align: justify;
+}
+
+
+/*------------------
+works
+------------------*/
+#works ul {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+#works li {
+ width: 31%;
+ margin-bottom: 23px;
+}
+
+/*------------------
+news
+------------------*/
+#news dl {
+ display: flex;
+ flex-wrap: wrap;
+ border-top: 1px solid #c8c8c8;
+ margin-bottom: 20px;
+ 
+}
+
+#news dt {
+ width: 15%;
+ border-bottom: 1px solid #c8c8c8;
+ padding: 15px;
+}
+
+#news dd {
+ width: 70%;
+ border-bottom: 1px solid #c8c8c8;
+ text-align: justify;
+ padding: 15px;
+}
+
+/*------------------
+contact
+------------------*/
+#contact dl {
+ display: flex;
+ flex-wrap: wrap;
+ margin-bottom: 20px;
+}
+
+#contact dt {
+ width: 12%;
+ margin-right: 15px;
+}
+
+#contact dd {
+ width: 85%;
+ margin-bottom: 10px;
+}
+
+#contact dd input,
+#contact dd textarea {
+ width: 100%;
+ border: 1px solid #c8c8c8;
+}
+
+#contact dd input {
+ height: 40px;
+}
+
+textarea {
+ height: 200px;
+ 
+}
+
+.button {
+ text-align: center;
+}
+
+.button input {
+ width: 200px;
+ background-color: #24292e;
+ color: white;
+ padding: 15px 0;
+}
+
+.button input:hover {
+ background-color: white;
+ color: #24292e;
+ border-color: #24292e;
+}
+
+footer {
+ background-color: #24292e;
+ color: white;
+ font-size: 10px;
+ text-align: center;
+ padding: 10px 0;
+}

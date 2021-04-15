@@ -1,0 +1,37 @@
+@media (max-width:600px) {
+ .wrapper {
+  margin: 0 auto 110px auto;
+ }
+
+ #header {
+  flex-direction: column;
+  max-width: 100%;
+  height: auto;
+  padding-top: 20px;
+ }
+
+ .header-nav ul {
+  padding-top: 0;
+ }
+
+ .header-nav li {
+  margin-left: 20px;
+ } 
+
+#works ul {
+ flex-direction: column;
+}
+
+#works li {
+ width: 100%;
+}
+
+#contact dl {
+ flex-direction: column;
+}
+
+#contact dd {
+ width: 100%;
+}
+
+}
